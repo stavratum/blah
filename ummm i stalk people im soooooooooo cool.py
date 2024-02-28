@@ -19,7 +19,7 @@ while True:
 		if u_player.get(key) != v:
 			u_player[key] = v
 
-			print(time.strftime(f"%H:%M:%S: {key} = {v}", time.gmtime()))
+			print(time.strftime(f"%H:%M:%S: {key} = {v}", time.localtime()))
 
 	time.sleep(60)
 
